@@ -1,0 +1,280 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body  {
+/*  height: 2000px;*/
+  padding-top: 50px;
+}
+.bg-dark {
+    background-color: #52789d !important;
+}
+.navbar .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.navbar .navbar-brand .arabic-brand {
+    font-size: 20px;
+    font-weight: normal;
+}
+.navbar .navbar-nav .show > .nav-link,
+/*.navbar .navbar-nav .active > .nav-link,*/
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .nav-link:hover {
+    color: #6df8fd;
+    text-shadow: 2px 2px #2e2f2f;
+}
+.navbar .navbar-brand span {
+    color: #005749;
+    text-shadow: 2px 2px #91c9f2;
+        /*#85CAE9;*/
+}
+.navbar .navbar-nav .nav-link:hover{
+    
+    transition: all .7s;
+}
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+/*    font-weight: bold*/
+}
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #52789d;
+  min-width: 180px
+}
+.dropdown-item {
+  color: #FFF;
+}
+.dropdown-item:hover {
+  background-color: #85CAE9;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  color: #fff;
+}
+.navbar-collapse {
+    background-color:#52789d 
+}
+/*
+.navbar .navbar-nav .selectpicker {
+    background-color: #343A40;
+    color: #fff;
+}
+*/
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    width: 99%;
+    float: right;
+  }
+}
+.navbar-toggler {
+    border: 2px solid #85CAE9;
+}
+/*End Nav Bar*/
+
+
+/*Start Footer Section*/
+#page-footer {
+    padding: 50px 0px 0 0;
+    position: relative;
+    color: #FFF;
+    
+}
+#page-footer.background-is-dark:after {
+/*      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);*/
+    opacity: 1;
+    background: -moz-linear-gradient(top, transparent 0%, black 100%);
+    background: -webkit-linear-gradient(top, transparent 0%, black 100%);
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000',GradientType=0 );
+}
+#page-footer:after {
+/*  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);*/
+  opacity: 1;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+@media (max-width: 767px) {
+    #page-footer h2 {
+        font-size: 24px;
+        margin: 20px 0 !important;
+    }
+    #page-footer p {
+        line-height: 18px;
+    }
+    #page-footer .contact-data {
+        float: left !important;
+    }
+    #page-footer .numbers {
+        margin-top: 20px !important;
+        text-align: center
+        
+    }
+    #page-footer .number figure {
+        font-size: 30px !important;
+    }
+}
+
+#page-footer .brand {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    color: #FFF;
+}
+#page-footer h2 {
+/*  font-size: 24px;*/
+  margin: 10px 0;
+    opacity: .7;
+}
+#page-footer p.definition{
+    margin: 2rem;
+    letter-spacing: -.5px;
+    
+}
+@media (max-width: 767px){
+    
+    #page-footer p.definition{
+        margin-left: .5rem;
+        letter-spacing: -.5px;
+    }
+}
+#page-footer .phones ul {
+    list-style: none;
+}
+#page-footer .phones ul li {
+    margin-bottom: 0px
+}
+#page-footer > div.container > div.row > div.contact-data.col-md-6.col-sm-6 > ul > li > div > p {
+    margin-bottom: 3px;
+}
+
+#page-footer > div.container > div.row > div.contact-data.col-md-6.col-sm-6 > ul > li > div > p.contact_phone > a ,
+#page-footer > div.container > div.row > div.contact-data.col-md-6.col-sm-6 > ul > li > div > p.contact_email > a {
+    color: #FFF;
+}
+
+#page-footer .contact-data .contact_wrap p span {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+#page-footer .fontawesomes {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 30px;
+/*    width: 250px;*/
+}
+#page-footer .fontawesomes a {
+    width: 30px;
+    height: 30px;
+    display: inline-block
+}
+#page-footer .fontawesomes img {
+    width: 100%;
+    height: 100%;
+}
+#page-footer hr {
+     background-color: #888686;
+}
+#page-footer .note i {
+    margin-right: 5px;
+}
+#page-footer .numbers {
+  margin-top: 5%;
+}
+#page-footer .number figure {
+  font-size: 40px;
+}
+#page-footer .to-top {
+  position: relative;
+}
+#page-footer .to-top span {
+  display: none;
+}
+#page-footer .to-top .arrow-up {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+#page-footer .to-top .arrow-up i {
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.background-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+.bg-transfer {
+    background: url(../images/gallary/1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+}
+.background-wrapper .background-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5
+/*  z-index: -1;*/
+        
+}
+.block {
+  padding: 70px 0;
+  overflow: hidden;
+  position: relative;
+}
+/*End Footer Section*/
+
+
+/*.navbar-brand ,*/
+/*fonts*/
+h1, h2, h3, h4, h5, h6,
+.pricing .price-box,
+.contact form button {
+/*    font-family: 'Charm', cursive;*/
+/*    font-weight: bold;*/
+/*    font-family: 'Boogaloo', cursive;*/
+}
+.mycard {
+    margin-bottom: 5px !important  ;
+}

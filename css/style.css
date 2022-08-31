@@ -1,0 +1,431 @@
+
+/* Strart Header */
+.header {
+    /* background: url('../images/5.jpg'); */
+    position: relative;
+    max-height: 674.5px;
+}
+#carouselSlid {
+    max-height: 674.5px;
+}
+/*
+#carouselSlid .carousel-inner {
+    max-height: 674.5px;
+}
+*/
+.header .carousel-item {
+    height: 674.5px
+}
+#carouselSlid .carousel-item img {
+    float: left;
+    height: 674.5px;
+    max-height: 100%;
+    object-fit: cover;
+}
+#carouselSlid .carousel-item img.myopacity{
+    opacity: 0.3;
+}
+@media (min-width: 1200px) {
+    .slide .carousel-inner .carousel-item  .carousel-caption {
+        top: 30%;
+    }
+}
+.slide .carousel-inner .carousel-item  .carousel-caption {
+    color: #000
+}
+.slide .carousel-inner .carousel-item  .carousel-caption h3 {
+    padding-bottom: 25px;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+.slide .carousel-inner .carousel-item  .carousel-caption p {
+    padding: 0 40px;
+    line-height: 2;
+    font-size: 19px;
+}
+.carousel-control-prev, .carousel-control-next {
+/*    opacity: .6;*/
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+/*    background-color: #888;*/
+    padding: 20px;
+/*    opacity: .6*/
+/*    border: 2px solid #fff;*/
+/*    border-radius: 100%*/
+    
+}
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: #888;
+    opacity: 1;
+    border: 2px solid #fff;
+    border-radius: 100%
+    
+}
+
+/* End Header */
+
+/* Start About Section */
+.about {
+  padding: 60px 0;
+  
+}
+.about p {
+    color: #888;
+    font-size: 15px;
+    line-height: 1.9;
+    padding-right: 20px;
+}
+@media (max-width: 786px) {
+  .about h1 {
+    font-size: 1.7rem;
+  }
+}
+/* End About Section */
+
+/*Start Design Section*/
+.detail {
+  margin-bottom: 80px;
+}
+.detail.left-align .gallery {
+    padding-left: 70px;
+/*    height: 100%;*/
+    margin-top: 20px;
+        
+}
+.design .detail.left-align .title .framed {
+    padding-top: 10px;
+    font-size: 20px;
+    border: 15px solid rgba(52, 58, 64, 0.6);
+    text-align: center;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-bottom: 70px
+}
+
+@media (max-width: 767px) {
+    .design .detail .title .framed {
+        width: 80%;
+        padding: 10px 30px !important;
+        font-size: 18px;
+        border-radius: 100% !important;
+        margin-left: 10%;
+    }
+    .detail.left-align .gallery {
+        padding-left: 0;
+        margin-top: 50px;
+/*        margin-bottom: 30px;*/
+    }
+}
+.detail .description dl {
+    width: 100%;
+    float: left
+}
+.detail .description dl dt {
+    font-size: 20px;
+    width: 10%;
+    float: left;
+}
+.detail .description dl dd {
+    font-size: 20px;
+    width: 80%;
+        
+}
+.detail .description p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #888;
+}
+.detail .title {
+  z-index: 2;
+  position: relative;
+}
+.detail .title h3 {
+    margin-top: 0px;
+    margin-bottom: -80px;
+/*    font-family: 'Charm', cursive;*/
+    font-weight: bold
+}
+
+.detail .title .owl-carousel .owl-item img {
+    float: left;
+    height: 350px;
+    max-height: 100%;
+}
+
+.detail .title .owl-carousel .owl-stage-outer owl-height {
+    
+    float: left;
+    height: 350px;
+    max-height: 100%;
+    
+}
+
+/*End Design Section*/
+
+
+/* Start Projects Section */
+.projects {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eee;
+}
+.projects p{
+    text-align: center; 
+    font-size: 18px; 
+    font-weight: 300;
+}
+/* End Projects Section */
+
+/*Start Gallery Section*/
+.gallery-section {
+    padding: 50px 0;
+}
+.gallery-section .left-right-arrows {
+    z-index: 2;
+    font-size: 22px;
+    position: relative;
+    bottom: 60px;
+    color: #888;
+    float: right;
+/*    right: 15%*/
+}
+.gallery-section .left-right-arrows .fa-angle-left {
+/*    top: 50%;*/
+    position: absolute;
+    right: 90px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    padding: 15px;
+    
+}
+.gallery-section .left-right-arrows .fa-angle-right {
+    position: absolute;
+    right: 40px;
+    border: 1px solid #888;
+    padding: 15px;
+    border-radius: 50%;
+}
+.left-right-arrows .fa-angle-left:hover,
+.left-right-arrows .fa-angle-right:hover {
+    background-color: rgba(197, 197, 197, .5);
+    color: #fff;
+    cursor: pointer;
+}
+@media (max-width: 767px) {
+    .gallery-section .left-right-arrows .fa-angle-left {
+        right: 50px
+    }
+    .gallery-section .left-right-arrows .fa-angle-right {
+        right: 0
+    }
+}
+.gallery-section .slide .description {
+    text-align: left;
+/*    width: 100%;*/
+}
+#gallery-carousel {
+    height: 683px;
+}
+#gallery-carousel img {
+    height: 555px;
+}
+.gallery-section .slide .description h3 {
+    margin-top: -50px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-right: 80px;
+    margin-left: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+.gallery-section .slide .description .framed {
+    border: 20px solid rgba(52, 58, 64, .8);
+/*    border-radius: 5%;*/
+}
+.gallery-section .slide img {
+    width: 100%;
+    vertical-align: middle;
+    height: 70%;
+}
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+}
+/*End Gallery Section*/
+
+/*Start Pricing Section*/
+.pricing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:  rgba(32, 192, 99, 0.2);
+}
+.pricing .property_location_image {
+    float: left;
+    width: 100%;
+    color: #909090;
+    margin-top: -7px;
+    margin-left: 15px
+}
+.pricing .property_location_image a {
+    color: #909090;
+}
+.pricing .listing_unit_price_wrapper {
+    position: relative;
+    margin-top: 15px;
+    color: #20c063;
+    font-size: 20px;
+    line-height: 16px;
+    float: left;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.pricing .price_label {
+    font-size: 15px;
+    margin-top: 2px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+.pricing .card-footer {
+    position: relative;
+    color: #909090;
+    width: 100%;
+    float: left;
+    padding: 10px 20px;
+}
+.pricing .card-footer .infobath:before,
+.pricing .card-footer .inforoom:before {
+    content: " ";
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    border-left: 1px solid #afadad;
+    height: 18px;
+}
+.pricing .card-footer .infobath:before, 
+.pricing .card-footer .infosize:before {
+    content: " ";
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    border-right: 1px solid #afadad;
+    height: 18px;
+}
+.pricing .card-footer .inforoom, 
+.pricing .card-footer .infobath, 
+.pricing .card-footer .infosize {
+    width: 33%;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    position: relative;
+}
+.pricing .card-footer .info_labels {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 300;
+}
+    
+/*End Pricing Section*/
+
+/*Start Contact Section*/
+.contact {
+    padding: 70px 0;
+}
+input[type=text], textarea#message {
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    margin: 15px 1px 1px 0px;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;    
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+input[type=text]:focus, textarea:focus {
+    outline: none;
+    border-bottom: 1px solid rgba(81, 203, 238, 1);
+    box-shadow: 0 5px 5px rgba(81, 203, 238, .3);
+    margin: 15px 1px 1px 0px;
+    padding: 3px 0px 3px 3px;
+}
+
+/*.md-form label {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 1rem;
+    color: #757575;
+    cursor: text;
+    -webkit-transition: color .2s ease-out,-webkit-transform .2s ease-out;
+    transition: color .2s ease-out,-webkit-transform .2s ease-out;
+    transition: transform .2s ease-out,color .2s ease-out;
+    transition: transform .2s ease-out,color .2s ease-out,-webkit-transform .2s ease-out;
+    -webkit-transform: translateY(12px);
+    transform: translateY(12px);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}*/
+div.mybtn{
+  margin: 10px 0 10px 0;
+}
+.status {
+    color: red;
+    font-size: 1rem;
+    font-family: inherit;
+}
+/*End Contact Section*/
+
+/* Start My Framework*/
+.framed {
+  border: 15px solid rgba(0, 0, 0, 0.05);
+  padding: 25px;
+}
+
+.about h2,
+.projects h2,
+.gallery-section h2,
+.pricing h2,
+.contact h2,
+.closest-area h2,
+.logos h2,
+.testimonials h2 {
+    /*margin-bottom: 50px;
+    background-color: #343A40;
+    border: 2px solid #ccc;
+    box-shadow: -10px 8px 18px 3px rgba(0, 0, 0, 0.4);
+    color: #FFF;
+    padding: 8px 30px;
+    display: inline-block*/
+}
+
+#heading {
+    font-weight: bold; 
+    color: #31312c; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+#heading .myspan {
+    font-size: 50px; 
+    font-weight: 300; 
+    letter-spacing: -2px; 
+    color: #000000;
+}
+@media (max-width: 767px) {
+    #heading {
+        margin-bottom: 10px;
+    }
+    #heading .myspan {
+        font-size: 25px; 
+        font-weight: 300; 
+        letter-spacing: 0px; 
+    }
+}
